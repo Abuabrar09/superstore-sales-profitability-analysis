@@ -2,7 +2,30 @@
 
 ## Project overview
 A portfolio project for a Business Data & Financial Analyst role. It examines retail sales, profit, margin, product categories, regions, discounting, and monthly performance using the Kaggle Sample Superstore dataset.
+## Explore the Analysis
 
+The Jupyter Notebook contains the step-by-step analysis, including data-quality checks, sales and profit KPIs, category and regional performance, discount analysis, and monthly trends.
+
+- **[View the Jupyter Notebook](superstore_sales_profitability_analysis.ipynb)**
+- [View the Python analysis script](analysis_notebook.py)
+- [Read the executive report](executive_report.md)
+- [View the dashboard preview](images/superstore_dashboard.png)
+
+## Tools and Technologies
+
+- Python
+- Pandas and NumPy
+- Matplotlib
+- Jupyter Notebook
+
+## How to Run the Project
+
+1. Download the Sample Superstore dataset from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
+2. Install the required packages: `pip install pandas numpy matplotlib jupyter`
+3. Place the CSV file named `Sample - Superstore.csv` in the same folder as the notebook.
+4. Open the notebook in Jupyter and run the cells in order.
+
+**Note:** The analysis results and business recommendations should be validated against the downloaded dataset before publication.
 ## Dataset
 - Source: [Kaggle — Sample Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 - Common file name: `Sample - Superstore.csv`
@@ -40,9 +63,6 @@ These are hypotheses, not conclusions to publish without running the notebook on
 - Test discount policy changes with controlled comparisons instead of assuming discounts cause losses.
 - Build a monthly reporting cadence with sales, profit, margin, orders, and exception flags.
 
-## LinkedIn project description
-**Superstore Sales & Profitability Analysis | Python, Excel/Power BI**
-Analyzed the Kaggle Sample Superstore retail dataset to assess sales and profitability by product category, subcategory, region, and discount band. Built data-quality checks, KPI summaries, trend charts, and exportable performance tables using Python (pandas, NumPy, Matplotlib). The project demonstrates how financial and operational data can be translated into recommendations on pricing, discount controls, and profit-focused decision-making.
 
 ## Important
 The included dashboard image is a portfolio-style mockup based on commonly reported summary figures for the standard Sample Superstore dataset. Re-run the notebook against your downloaded file and replace any dashboard values that differ before claiming results publicly.
